@@ -1,0 +1,40 @@
+name: Update URLs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'urls.txt'
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Install yt-dlp
+      run: pip install --upgrade yt-dlp
+
+    - name: Run extractor
+      run: python extractor.py
+
+    - name: Commit and push
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add peliculas/
+        git diff --staged --quiet || git commit -m "🔄 JSONs actualizados con metadatos"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
