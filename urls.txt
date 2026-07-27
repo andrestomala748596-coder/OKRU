@@ -50,3 +50,7 @@ Ranma_OVAS|https://ok.ru/video/16014161414680
 Ranma_OVAS|https://ok.ru/video/16014161283608
 Ranma_OVAS|https://ok.ru/video/16013984270872
 Ranma_OVAS|https://ok.ru/video/16013984205336
+Inuyasha|https://ok.ru/video/6989331827317
+Inuyasha|https://ok.ru/video/6989304564341
+Inuyasha|https://ok.ru/video/6989373770357
+Inuyasha|https://ok.ru/video/6989191187061
