@@ -18,5 +18,25 @@
       "https://ok.ru/video/15059993234158"
     ],
     "URL_DIRECTA": ""
+  },
+  {
+    "TMDB_ID": 10009,
+    "ID_OKRU": "15065638439662",
+    "TITULO": "Hermano oso",
+    "FECHA": "2003-10-23",
+    "PORTADA": "https://image.tmdb.org/t/p/w500/1XwOQNSby3HZfKMZcY7rtZw4KR.jpg",
+    "BACKDROP": "https://image.tmdb.org/t/p/w500/sZhY0BAsN1bMAPLIqMRqG1fqb3A.jpg",
+    "GENERO": "Aventura, Animación, Familia",
+    "RATING": 7.282,
+    "DURACION": 85,
+    "FRASE_PROMOCIONAL": "",
+    "SINOPSIS": "En los bosques del noroeste americano vive un niño indio llamado Kenai, cuya vida sufre un giro inesperado cuando los Grandes Espíritus lo transforman en un oso, el animal que más odia. Kenai se hace amigo de un osezno llamado Koda y se propone recuperar su forma humana. Mientras, su hermano (que no sabe que Kenai es ahora un oso) lo persigue para cumplir una misión de venganza en la que está en juego el honor familiar.",
+    "ACTORES": "  • Joaquin Phoenix (Kenai (voice))\n  • Jeremy Suarez (Koda (voice))\n  • Jason Raize (Denahi (voice))\n  • Rick Moranis (Rutt (voice))\n  • Dave Thomas (Tuke (voice))",
+    "DIRECTOR": "Aaron Blaise",
+    "TRAILER": "https://youtube.com/watch?v=HgGMeCaMtq8",
+    "URLS_OKRU": [
+      "https://ok.ru/video/15065638439662"
+    ],
+    "URL_DIRECTA": ""
   }
 ]
